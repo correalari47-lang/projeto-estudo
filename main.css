@@ -1,0 +1,102 @@
+body {
+
+font-family: monospace;
+
+}
+
+ul {
+
+font-family: helvética;
+
+}
+li {
+
+list-style: circle;
+
+}
+
+.list {
+
+list-style: square;
+
+}
+
+#msg {
+
+font-family: monospace;
+
+}
+li {
+
+list-style: circle;
+
+}
+
+.list {
+
+list-style: square;
+
+}
+
+.light-theme {
+
+color: #000000;
+
+background: #00FF00;
+
+}
+:root {
+--green: #40ff00;
+--white: #ffffff;
+--black: #000000;
+}
+
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+.dark-theme {
+   background-color: #000000;
+   color: #40ff00;
+}
+*{
+    color:var(--font-color);
+    font-family: Helvetica;
+}
+body{
+    background:var(--bgdarcktheme);
+}
+
+.btn{
+    color:var(--btnBg)
+}
+.btn{
+    position: absolute;
+    top:20px;
+    left:250px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    border:none;
+    color:var (--binfontcolor);
+    background-color:var (--btnBh);
+}
+.btn:focus{outline-style: none;}
+
+.light-theme {
+    --bg: var(--green);
+    --fontcolor: var(--black);
+    --btnBg: var(--black);
+    --btnfontcolor: var(--white);
+
+}
+.darck-theme {
+    --bg: var(var(--black);
+    --font-color: var(--green);
+    --benBg: bar(--white);
+    --btnfontcolor: var(--black);
+    )
+}
+
+
+    
